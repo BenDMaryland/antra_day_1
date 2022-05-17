@@ -3,6 +3,17 @@ body {
     margin: 10vw;
 }
 
+#instructionsSubTitle {
+
+    position: relative;
+    right: 40px;
+}
+#antaLogo{
+        position: relative;
+            right: 40px;
+    width: 200px;
+}
+
 .textInput {
     padding: 14px 20px;
     margin: 8px 20px;
@@ -61,11 +72,20 @@ button {
     grid-template-columns: 1fr 3fr;
 }
 
-img {
+#registerImage {
     height: 1em;
 }
 
 a {
     text-decoration: none;
     color: #5396cf;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    margin: 8px 20px;
+    width: 60%;
+    text-align: center;
+    font-size: small;
+
 }
